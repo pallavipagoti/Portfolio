@@ -4,6 +4,7 @@ import { SiTailwindcss } from "react-icons/si";
 import ContentfulImg from "./assets/Contentful.png";
 import MixMasterImg from "./assets/MixMaster.png";
 import UnsplashImg from "./assets/UnsplashImages.png";
+import mycomfystore from "./assets/mycomfystore.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -40,6 +41,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: mycomfystore,
+    url: "https://mycomfyfurniture.netlify.app",
+    github: "https://github.com/pallavipagoti/comfystore.git",
+    title: "My Comfy Furniture",
+    text: "This project is a complete furniture store website where in I have added features like login, register, checkout and using the API we can also retrieve the placed orders.",
+  },
   {
     id: nanoid(),
     img: ContentfulImg,
