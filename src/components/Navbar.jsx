@@ -1,4 +1,5 @@
 import { links } from "../data";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   return (

@@ -1,6 +1,20 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import {
+  FaHtml5,
+  FaJs,
+  FaReact,
+  FaJava,
+  FaGithub,
+  FaDocker,
+  FaDatabase,
+} from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiSpring,
+  SiSpringboot,
+  SiChakraui,
+  SiHibernate,
+} from "react-icons/si";
 import ContentfulImg from "./assets/Contentful.png";
 import MixMasterImg from "./assets/MixMaster.png";
 import UnsplashImg from "./assets/UnsplashImages.png";
@@ -37,6 +51,54 @@ export const skills = [
     title: "Tailwind CSS",
     icon: <SiTailwindcss className="h-16 w-16 text-emerald-500" />,
     text: "Expertise in Tailwind css, can style visually appealing and responsive websites using Tailwind css",
+  },
+  {
+    id: nanoid(),
+    title: "Java",
+    icon: <FaJava className="h-16 w-16 text-emerald-500" />,
+    text: "Proficient in Java programming, skilled at building scalable, high-performance applications with a strong understanding of object-oriented principles.",
+  },
+  {
+    id: nanoid(),
+    title: "Spring",
+    icon: <SiSpring className="h-16 w-16 text-emerald-500" />,
+    text: "Experienced with the Spring Framework, adept at creating robust backend systems and enterprise-level applications using Spring’s core features, including dependency injection, security, and data management.",
+  },
+  {
+    id: nanoid(),
+    title: "Spring Boot",
+    icon: <SiSpringboot className="h-16 w-16 text-emerald-500" />,
+    text: "Specialized in Spring Boot, capable of rapidly developing production-ready, stand-alone applications with minimal setup and configuration.",
+  },
+  {
+    id: nanoid(),
+    title: "Chakra UI",
+    icon: <SiChakraui className="h-16 w-16 text-emerald-500" />,
+    text: "Skilled in utilizing Chakra UI to build accessible, responsive, and customizable user interfaces with a focus on simplicity and ease of use.",
+  },
+  {
+    id: nanoid(),
+    title: "GitHub",
+    icon: <FaGithub className="h-16 w-16 text-emerald-500" />,
+    text: "Proficient in using GitHub for version control, collaboration, and project management, ensuring efficient code sharing and team coordination.",
+  },
+  {
+    id: nanoid(),
+    title: "Docker",
+    icon: <FaDocker className="h-16 w-16 text-emerald-500" />,
+    text: "Experienced in containerizing applications with Docker, enabling consistent development, testing, and production environments for scalable and isolated application deployment.",
+  },
+  {
+    id: nanoid(),
+    title: "Databases",
+    icon: <FaDatabase className="h-16 w-16 text-emerald-500" />,
+    text: "Proficient in database management and optimization for full-stack development, with expertise in SQL, PostgreSQL, and MySQL to ensure seamless integration between front-end and back-end, efficient data handling, and high-performance application functionality.",
+  },
+  {
+    id: nanoid(),
+    title: "Hibernate",
+    icon: <SiHibernate className="h-16 w-16 text-emerald-500" />,
+    text: "Experienced in using Hibernate for efficient ORM (Object-Relational Mapping), enabling seamless interaction between Java applications and relational databases, with a focus on data consistency, performance optimization, and simplified database management.",
   },
 ];
 
