@@ -19,6 +19,7 @@ import ContentfulImg from "./assets/Contentful.png";
 import MixMasterImg from "./assets/MixMaster.png";
 import UnsplashImg from "./assets/UnsplashImages.png";
 import mycomfystore from "./assets/mycomfystore.png";
+import Instagram_Clone from "./assets/Instagram_Clone.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -103,6 +104,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: Instagram_Clone,
+    url: "https://instagram-clone-frontend-mtnr.onrender.com",
+    github: "https://github.com/pallavipagoti/Instagram-Clone-Backend.git",
+    title: "Instagram-Clone",
+    text: "This project is a clone of Instagram where in I have implemented features like login,register,create posts,modify details in the profile,like and comment posts and many more.I have used spring boot for the backend to create api end points for comments, posts, users and many more.",
+  },
   {
     id: nanoid(),
     img: mycomfystore,
